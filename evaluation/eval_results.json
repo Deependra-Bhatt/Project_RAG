@@ -1,0 +1,314 @@
+{
+  "baseline": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4327976190476191,
+    "context_precision": 0.62
+  },
+  "improved": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7238690476190477,
+    "context_precision": 0.7875
+  },
+  "per_question": [
+    {
+      "id": "q1",
+      "type": "factual_product",
+      "query": "What is the battery life of the boAt Airdopes wireless earbuds?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.8
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q2",
+      "type": "factual_product",
+      "query": "What is the warranty period on Noise Pulse USB chargers?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6666666666666666,
+        "context_precision": 0.8
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8333333333333334,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q3",
+      "type": "factual_product",
+      "query": "What is the net quantity of the Mamaearth Glow face serum?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8333333333333334,
+        "context_precision": 0.8
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8333333333333334,
+        "context_precision": 0.75
+      }
+    },
+    {
+      "id": "q4",
+      "type": "policy_eligibility",
+      "query": "Can I return a beauty product I don't like the smell of?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.3333333333333333,
+        "context_precision": 0.4
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6666666666666666,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q5",
+      "type": "policy_eligibility",
+      "query": "What is the standard return window for Fashion items?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8,
+        "context_precision": 0.6
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.875
+      }
+    },
+    {
+      "id": "q6",
+      "type": "policy_eligibility",
+      "query": "Are personalised items eligible for return?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.25,
+        "context_precision": 0.2
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q7",
+      "type": "recommendation",
+      "query": "Recommend the best wireless earbuds under \u20b92000",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.3333333333333333,
+        "context_precision": 1.0
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8333333333333334,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q8",
+      "type": "recommendation",
+      "query": "What are the top-rated smartwatches under \u20b95000?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.2,
+        "context_precision": 0.8
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q9",
+      "type": "recommendation",
+      "query": "Compare Bluetooth speakers and tell me which is best value",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.42857142857142855,
+        "context_precision": 1.0
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5714285714285714,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q10",
+      "type": "recommendation",
+      "query": "Which power banks would you recommend under \u20b91500?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.2857142857142857,
+        "context_precision": 0.8
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7142857142857143,
+        "context_precision": 0.875
+      }
+    },
+    {
+      "id": "q11",
+      "type": "seller_images",
+      "query": "How many product images do I need to upload for a listing?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.16666666666666666,
+        "context_precision": 0.0
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8333333333333334,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q12",
+      "type": "seller_images",
+      "query": "What is the minimum image resolution required for listing photos?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5,
+        "context_precision": 0.4
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": "q13",
+      "type": "seller_images",
+      "query": "Do Fashion listings need extra photos beyond the standard three?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.125,
+        "context_precision": 1.0
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.875,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q14",
+      "type": "multi_hop_warranty_returns",
+      "query": "What is the warranty and return policy for smartwatches?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 1.0
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.875
+      }
+    },
+    {
+      "id": "q15",
+      "type": "multi_hop_warranty_returns",
+      "query": "If Electronics warranty has expired, can I still return the item?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.5,
+        "context_precision": 0.6
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q16",
+      "type": "multi_hop_warranty_returns",
+      "query": "How does the return window interact with the manufacturer warranty for earbuds?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6666666666666666,
+        "context_precision": 0.4
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0,
+        "context_precision": 0.875
+      }
+    },
+    {
+      "id": "q17",
+      "type": "absent_evidence",
+      "query": "Do you sell drones?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": "q18",
+      "type": "absent_evidence",
+      "query": "What is the price of the ShopSmart branded laptop?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.2
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.25,
+        "context_precision": 0.0
+      }
+    },
+    {
+      "id": "q19",
+      "type": "seller_onboarding",
+      "query": "How long does seller account verification take?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.4,
+        "context_precision": 0.8
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6,
+        "context_precision": 1.0
+      }
+    },
+    {
+      "id": "q20",
+      "type": "recommendation",
+      "query": "What are some good options for kurtas under \u20b91500?",
+      "baseline": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.16666666666666666,
+        "context_precision": 0.8
+      },
+      "improved": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6666666666666666,
+        "context_precision": 0.5
+      }
+    }
+  ]
+}

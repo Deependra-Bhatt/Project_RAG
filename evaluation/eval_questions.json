@@ -1,0 +1,28 @@
+[
+  {"id": "q1", "type": "factual_product", "persona": "Shopper", "query": "What is the battery life of the boAt Airdopes wireless earbuds?", "filters": {}},
+  {"id": "q2", "type": "factual_product", "persona": "Shopper", "query": "What is the warranty period on Noise Pulse USB chargers?", "filters": {}},
+  {"id": "q3", "type": "factual_product", "persona": "Seller", "query": "What is the net quantity of the Mamaearth Glow face serum?", "filters": {}},
+
+  {"id": "q4", "type": "policy_eligibility", "persona": "Support Agent", "query": "Can I return a beauty product I don't like the smell of?", "filters": {}},
+  {"id": "q5", "type": "policy_eligibility", "persona": "Support Agent", "query": "What is the standard return window for Fashion items?", "filters": {}},
+  {"id": "q6", "type": "policy_eligibility", "persona": "Support Agent", "query": "Are personalised items eligible for return?", "filters": {}},
+
+  {"id": "q7", "type": "recommendation", "persona": "Shopper", "query": "Recommend the best wireless earbuds under \u20b92000", "filters": {"max_price": 2000, "category": "Electronics"}},
+  {"id": "q8", "type": "recommendation", "persona": "Shopper", "query": "What are the top-rated smartwatches under \u20b95000?", "filters": {"max_price": 5000, "category": "Electronics"}},
+  {"id": "q9", "type": "recommendation", "persona": "Shopper", "query": "Compare Bluetooth speakers and tell me which is best value", "filters": {"category": "Electronics"}},
+  {"id": "q10", "type": "recommendation", "persona": "Shopper", "query": "Which power banks would you recommend under \u20b91500?", "filters": {"max_price": 1500, "category": "Electronics"}},
+
+  {"id": "q11", "type": "seller_images", "persona": "Seller", "query": "How many product images do I need to upload for a listing?", "filters": {}},
+  {"id": "q12", "type": "seller_images", "persona": "Seller", "query": "What is the minimum image resolution required for listing photos?", "filters": {}},
+  {"id": "q13", "type": "seller_images", "persona": "Seller", "query": "Do Fashion listings need extra photos beyond the standard three?", "filters": {}},
+
+  {"id": "q14", "type": "multi_hop_warranty_returns", "persona": "Shopper", "query": "What is the warranty and return policy for smartwatches?", "filters": {}},
+  {"id": "q15", "type": "multi_hop_warranty_returns", "persona": "Support Agent", "query": "If Electronics warranty has expired, can I still return the item?", "filters": {}},
+  {"id": "q16", "type": "multi_hop_warranty_returns", "persona": "Support Agent", "query": "How does the return window interact with the manufacturer warranty for earbuds?", "filters": {}},
+
+  {"id": "q17", "type": "absent_evidence", "persona": "Shopper", "query": "Do you sell drones?", "filters": {}},
+  {"id": "q18", "type": "absent_evidence", "persona": "Shopper", "query": "What is the price of the ShopSmart branded laptop?", "filters": {}},
+
+  {"id": "q19", "type": "seller_onboarding", "persona": "Seller", "query": "How long does seller account verification take?", "filters": {}},
+  {"id": "q20", "type": "recommendation", "persona": "Shopper", "query": "What are some good options for kurtas under \u20b91500?", "filters": {"max_price": 1500, "category": "Fashion"}}
+]
